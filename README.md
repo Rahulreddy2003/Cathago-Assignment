@@ -65,11 +65,6 @@ Use Postman or cURL to test API endpoints.
 - Optional AI-based document similarity analysis using OpenAI, Gemini, or DeepSeek.
 - NLP models like spaCy, BERT, or Llama2 can be integrated.
 
-## Submission Guidelines
-- Ensure all code is functional and documented.
-- Submit project on GitHub with setup instructions.
-- **Plagiarism detection tools will be used** to verify originality.
 
-## Contact
-For any queries, contact: `support@example.com`
+
 
