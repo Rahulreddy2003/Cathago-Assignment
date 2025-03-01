@@ -61,9 +61,17 @@ python app.py
 ### 3. Access API
 Use Postman or cURL to test API endpoints.
 
-## Bonus (AI-Powered Matching)
-- Optional AI-based document similarity analysis using OpenAI, Gemini, or DeepSeek.
-- NLP models like spaCy, BERT, or Llama2 can be integrated.
+  
+## Implementation Plan
+1. Database Changes
+Add a credits field to the User model (default = 20).
+Store credit requests in a separate table.
+2. Backend Endpoints (Flask Example)
+Method	Endpoint	Description
+GET	/user/profile	Fetch user credits
+POST	/scan	Deduct 1 credit per scan
+POST	/credits/request	User requests extra credits
+POST	/admin/credits/approve	Admin approves/denies credit requests
 
 
 
